@@ -1,0 +1,31 @@
+{
+  "name": "ajv-schema-repository",
+  "version": "1.0.0",
+  "description": "A schema definition repository for all kinds of properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text-summary mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrkjonnapalli/ajv-schema-repository.git"
+  },
+  "author": "rrkjonnapalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrkjonnapalli/ajv-schema-repository/issues"
+  },
+  "homepage": "https://github.com/rrkjonnapalli/ajv-schema-repository#readme",
+  "dependencies": {
+    "ajv": "^6.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
